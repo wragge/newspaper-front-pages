@@ -1,0 +1,16 @@
+altair
+ipywidgets
+jupyterlab
+pandas
+requests
+tqdm
+voila
+voila-material @ git+https://github.com/GLAM-Workbench/voila-material.git
+trove-newspaper-harvester
+jupyter-archive
+python-dotenv
+duckdb
+pyarrow
+jupyterlab-code-formatter
+black
+isort
