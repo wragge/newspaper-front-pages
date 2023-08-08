@@ -1,5 +1,7 @@
 # Trove newspaper front pages
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8223298.svg)](https://doi.org/10.5281/zenodo.8223298)
+
 This repository demonstrates how to harvest information about the contents of newspaper front pages from Trove. It then uses the harvested data to explore how the contents of front pages have changed over time.
 
 ## Notebooks
