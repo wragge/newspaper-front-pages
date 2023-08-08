@@ -4,15 +4,15 @@ This repository demonstrates how to harvest information about the contents of ne
 
 ## Notebooks
 
-- [`large-harvest-example.ipynb`](large-harvest-example.ipynb) – uses the Trove Newspaper Harvester as a library to download information about all articles published on the front pages of newspapers (about 19 million articles)
+- [](large-harvest-example.ipynb) – uses the Trove Newspaper Harvester as a library to download information about all articles published on the front pages of newspapers (about 19 million articles)
 - [`convert-front-pages-harvest.ipynb`](convert-front-pages-harvest.ipynb) – converts the large `ndjson` file created by the Trove Newspaper Harvester into parquet formatted datasets
-- [`explore-front-pages.ipynb`](explore-front-pages.ipynb) – uses the parquet datasets to visualise changes in front pages over time
+- [Exploring changes in the front pages of newspapers](explore-front-pages.ipynb) – uses the parquet datasets to visualise changes in front pages over time
 
 ## Datasets
 
 ### `front_pages.parquet`
 
-Contains summary information about articles published on the front pages of newspapers. There are 16,398,514 rows of data (274.4mb). Includes the following columns:
+Contains summary information about articles published on the front pages of newspapers. There are 16,398,514 rows of data (274.4mb). It was created on 2 August 2023. Includes the following columns:
 
 | Column | Description |
 |--------|-------------|
@@ -26,7 +26,7 @@ Contains summary information about articles published on the front pages of news
 
 ### `front_pages_totals.parquet`
 
-Derived from `front_pages.parquet` by adding together the word counts for articles within each category, giving us the total words per category for each front page. There are 4,351,009 rows of data (35.1mb). Includes the following columns:
+Derived from `front_pages.parquet` by adding together the word counts for articles within each category, giving us the total words per category for each front page. It was created on 2 August 2023. There are 4,351,009 rows of data (35.1mb). Includes the following columns:
 
 | Column | Description |
 |--------|-------------|
