@@ -7,7 +7,7 @@ tqdm
 voila
 voila-material @ git+https://github.com/GLAM-Workbench/voila-material.git
 trove-newspaper-harvester
-jupyter-archive
+# jupyter-archive
 python-dotenv
 duckdb
 pyarrow
